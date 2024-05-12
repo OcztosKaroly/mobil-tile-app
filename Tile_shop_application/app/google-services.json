@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "213722007959",
+    "project_id": "mobilalk-tile-webshop-app",
+    "storage_bucket": "mobilalk-tile-webshop-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213722007959:android:b6e880a9f4866ac0eadcd2",
+        "android_client_info": {
+          "package_name": "com.example.tile_shop_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjHK9CJ3d_d1WioEPUk5CeHb1CnElsDv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213722007959:android:08354972770afc68eadcd2",
+        "android_client_info": {
+          "package_name": "com.example.tile_webshop_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjHK9CJ3d_d1WioEPUk5CeHb1CnElsDv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

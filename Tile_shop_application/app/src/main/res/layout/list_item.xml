@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemName"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <TextView
+            android:id="@+id/itemDescriptionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemImage"
+            android:padding="10dp"
+            android:text="@string/description_label"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/itemDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemImage"
+            android:layout_toEndOf="@+id/itemDescriptionLabel"
+            android:padding="10dp"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/itemColorLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemDescription"
+            android:padding="10dp"
+            android:text="@string/color_label"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/itemColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemDescription"
+            android:layout_toEndOf="@+id/itemColorLabel"
+            android:padding="10dp"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/itemSizeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemColor"
+            android:padding="10dp"
+            android:text="@string/size_label"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemColor"
+            android:layout_toEndOf="@+id/itemSizeLabel"
+            android:padding="10dp"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/itemWhereLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemSize"
+            android:padding="10dp"
+            android:text="@string/where_label"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemWhere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemSize"
+            android:layout_toEndOf="@+id/itemWhereLabel"
+            android:padding="10dp"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/itemPriceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemWhere"
+            android:padding="10dp"
+            android:text="@string/price_label"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemWhere"
+            android:layout_toEndOf="@+id/itemPriceLabel"
+            android:padding="10dp"
+            android:textColor="#FD9940"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemCurrencyLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemWhere"
+            android:layout_toEndOf="@+id/itemPrice"
+            android:padding="10dp"
+            android:text="@string/currency"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/addToCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemPriceLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="@string/addToCart"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
